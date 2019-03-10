@@ -5,33 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Title.unity
-    guid: f3315733f372e544fb708f158a09f446
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/18be032dd059ae549b8e0cad547819c1
-    guid: 18be032dd059ae549b8e0cad547819c1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/6d2d5d6c1c2b4064485f65549fa0571f
-    guid: 6d2d5d6c1c2b4064485f65549fa0571f
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Level 3.unity
-    guid: 3f076d64c487ac647ae7fae28e8e7aa4
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Level 4.unity
-    guid: 6687472eb3cfc4a40a1815cdbd7319a2
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Level 5.unity
-    guid: 148aad7964a4e2c4abc81a182ca412aa
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Level 6.unity
-    guid: c9f69da5aeb5af149addc873306ea6c8
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Level 7.unity
-    guid: a35f6c750e65e524cb5c26f3ca09b7ea
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Level 8.unity
-    guid: 156d23c2f0895ba4bbd49eeaa9624d38
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: b8287200b04ec0d4eb17ed6bb89563b3
@@ -39,9 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 1e1bfdc8db6ba60438e9ea7e7e6e931c
   - enabled: 1
-    path: Assets/Scenes/Level 9.unity
-    guid: ef55ab05d7c19f9448e60eec32d3b64a
+    path: Assets/Scenes/Level 3.unity
+    guid: 20202600b75b5e5419bf6147dfab7f6b
   - enabled: 1
-    path: Assets/Scenes/End.unity
-    guid: 70727853783619d4aa99a4bfa9defa23
+    path: Assets/Scenes/stairs.unity
+    guid: f6b5b8df739fc1c4eab577cd9166fba7
   m_configObjects: {}

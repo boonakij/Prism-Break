@@ -1706,7 +1706,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2003,11 +2003,6 @@ Prefab:
     - target: {fileID: 4388206707482894, guid: 7c50411699f1c474190dd720e8ede7ff, type: 2}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114725621497769382, guid: 7c50411699f1c474190dd720e8ede7ff,
-        type: 2}
-      propertyPath: runSpeed
-      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c50411699f1c474190dd720e8ede7ff, type: 2}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
@@ -27,36 +28,12 @@ public class GameManager : MonoBehaviour {
             {
                 LevelWon();
             }
-            //if (Boon.GetComponent<PlayerController>().handedApplication)
-            //{
-            //    GameObject.Find("Boon").transform.localScale = new Vector3(0, 0, 0);
-            //}
 
-            //if (Emily.GetComponent<PlayerController>().handedApplication)
-            //{
-            //    GameObject.Find("Emily").transform.localScale = new Vector3(0, 0, 0);
-            //}
 
-            //if (Boon.GetComponent<PlayerController>().handedApplication && Emily.GetComponent<PlayerController>().handedApplication)
-            //{
-            //    //PauseGame();
-            //    successScreen.SetActive(true);
-            //}
-            //else
-            //{
-            //if (timeLeft > 0 && !gameOver)
-            //{
-            //    timeLeft -= Time.deltaTime;
-            //    int roundedTime = (int)timeLeft;
-            //    countdownText.GetComponent<Text>().text = "Application due in: " + "\n" + roundedTime;
-            //}
-            //else
-            //{
-            //    //PauseGame();
-            //    GameOver();
-            //}
-
-            //}
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
 
     }
